@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mostra desconto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="botao">
+            <button type="submit" onclick="mostrarDesconto()">Mostrar desconto</button>
+            <button type="reset" onclick="limparTabela()">Limpar</button>
+        </div>
+   
+            <table>
+                <thead>
+                    <tr>
+                        <th>Produto</th>
+                        <th>Preço</th>
+                        <th>Desconto</th>
+                        <th>Preço final</th>
+                    </tr>
+                </thead>
+                <tbody id="resultado">
+                
+                </tbody>
+            </table>
+        
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
